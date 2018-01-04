@@ -1,0 +1,16 @@
+{
+    "name": "agrinvest/gam-pivot",
+    "type": "library",
+    "description" : "A fork of gonzalo123/gam-pivot",
+    "authors": [
+        {"name": "Brian Haveri"}
+    ],
+    "repositories" : [{
+        "type": "vcs",
+        "url": "https://github.com/agrinvest/gam-pivot"
+    }],
+    "autoload": {
+        "classmap": ["Pivot.php"],
+        "files": ["Pivot.php"]
+    }
+}
